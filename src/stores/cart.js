@@ -29,7 +29,7 @@ export const useCartStore = defineStore("cart", () => {
     const index = isItemInCart(item.id);
     if (index >= 0) {
       if (isProductAvailable(item, index)) {
-        alert("Has alanzado la cantidad máxima permitida");
+        alert("Has alcanzado la cantidad máxima permitida por cada venta");
         return;
       }
       //updateQuantity
