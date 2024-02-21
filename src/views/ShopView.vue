@@ -11,7 +11,7 @@ const { filteredProducts, noResults } = storeToRefs(products);
 <template>
   <MainNav />
 
-  <main class="pt-36 lg:flex lg:h-screen lg:overflow-hidden">
+  <main class="pt-24 lg:flex lg:h-screen lg:overflow-hidden">
     <div class="lg:w-2/3 lg:h-screen lg:overflow-y-scroll py-12 px-10 pb-44">
       <p v-if="noResults" class="text-center text-4xl">No hay productos para mostrar</p>
       <div 
