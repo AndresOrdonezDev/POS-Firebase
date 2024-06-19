@@ -9,7 +9,7 @@ const products = useProductsStore()
     class="px-10 py-4 bg-gray-700 flex flex-col lg:flex-row gap-5 lg:items-center justify-between absolute top-0 w-full z-10"
   >
     <div >
-      <Logo/>
+      <Logo />
 
       <div class="flex flex-col items-center lg:flex-row gap-5 text-white mt-5">
         <h2 class="text-lg font-extrabold">Filtros:</h2>
